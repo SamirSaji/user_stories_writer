@@ -1,0 +1,232 @@
+.head_caption {
+  color: #261D56;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 0px;
+}
+
+.head_content {
+  color: #808080;
+  font-size: 20px;
+  line-height: 28px;
+}
+.img_head{
+  float: right;
+}
+.head_btn {
+  background-color: #563C9D;
+  padding: 13px 30px;
+  text-decoration: none ;
+  color: #fff;
+  font-size: 12px;
+  /* font-weight: bold; */
+  border-radius: 5px;
+}
+
+.faq_btn {
+  color: #3B3B3B;
+  background-color: #fff;
+  padding: 10px 25px;
+  border: 1px solid #0000001F;
+  border-radius: 8px;
+  text-decoration: none ;
+}
+
+.faq_head {
+  color: #261D56;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.accordion {
+  color: #111E3D;
+  background-color: unset;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+/*   
+  .active, .accordion:hover {
+  
+  } */
+.accordion:after {
+  content: '\002B';
+  /* background-image: url("/public/assets/index/img/cross_symbol.svg") */
+  /* color:#111E3D; */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: unset;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-left: 2px solid green;
+}
+
+.benefit_first_img1 {
+  background-image: url(/public/assets/index/img/background1.svg);
+  background-position: left;
+  /* background-size:100% ; */
+  /* opacity: 1 !important; */
+  background-size: contain;
+  /* background-size: 90%, 100%; */
+  background-repeat: no-repeat;
+}
+.benefit_first_img2 {
+  background-image: url(/public/assets/index/img/background2.svg);
+  background-position: right;
+  /* background-size: 100%; */
+  opacity: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.benefit_first_img3 {
+  background-image: url(/public/assets/index/img/background1.svg);
+  background-position: left;
+  /* background-size: 100%; */
+  opacity: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.product_features {
+  text-align: center;
+  font-size: 40px;
+  color: #444445;
+  font-weight: bold;
+}
+
+.benefit_heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #261D56;
+}
+
+.benefits_content_part {
+  color: #808080;
+
+}
+
+.benefit_read_more {
+  padding: 13px 25px;
+  border: 1px solid #563C9D;
+  border-radius: 6px;
+  text-decoration: none !important;
+  color: #563C9D !important;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+  .side_img {
+    padding-top: 40px;
+    float: left !important;
+  }
+
+  .head_caption {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .head_content {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .faq_toggle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  .benifits1 {
+ padding-top: 80px;
+  }
+  .benifits2 {
+    padding-top: 80px;
+  
+  }
+  .benifits3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+  }
+
+  .product_features {
+    padding-bottom: 20px;
+  }
+
+}
+
+
+
+@media only screen and (min-width:768px) {
+
+  .faq_contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .faq_toggle {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+  }
+
+  .product_content_part {
+    padding-left: 100px;
+  }
+
+  .benifits1 {
+    padding-top: 130px;
+ 
+  }
+  .benifits2 {
+    padding-top: 130px;
+  
+  }
+  .benifits3 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+  }
+
+  .product_features {
+    padding-bottom: 70px;
+  }
+  .side_img {
+    padding-top: 40px;
+    float: left !important;
+  }
+
+}
+
+
